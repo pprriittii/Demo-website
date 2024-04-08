@@ -3,7 +3,9 @@
     padding: 0;
     margin: 0;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .navlist {
     display: flex;
     width: 65%;
@@ -23,6 +25,15 @@
     margin: 5px;
    
 }
+.navlist li a{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+.navlist li a:hover{
+    color: rgb(203, 199, 199);
+}
+
 
 .nav {
     display: flex;
@@ -32,6 +43,7 @@
     position: sticky;
     cursor: pointer;
     top: 0;
+   
 }
 
 .logoo {
@@ -143,7 +155,7 @@
     height: 100px;
     border: 2px solid white;
     border-radius:50%;
-    margin: 20px;
+    /* margin: 20px; */
 }
 
 
@@ -151,7 +163,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 300px;
+    padding: 15px;
     max-width: 80%;
     margin: auto;
 }
@@ -167,17 +179,11 @@
 
 
 }
-.middlesection{
-    display: flex;
+.c-reverse{
     flex-direction: row-reverse;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 300px;
-    max-width: 80%;
-    margin: auto;
-
-
 }
+
+
 .subtitle{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -225,7 +231,7 @@
 .burgar{
       display: none;
       position: absolute;
-    right: 5%;
+    left: 5%;
     top:15px;
   
 

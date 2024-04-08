@@ -4,6 +4,8 @@
     }
     .nav{
         flex-direction: column;
+        height: 400px;
+       transition: all 0.7s ease-out;
        
     }
     .rightnav input{
@@ -20,10 +22,36 @@
         display: block;
     }
     .op-res{
-       display: none;
+       opacity: 0;
     }
     .h-nav-res{
         height: 51px;
     }
+    .box{
+        flex-direction: column-reverse;
+      max-width: 100%;
+      padding-top: 10px;
+      align-items: center;
+    }
+    .big-text{
+        text-align: center;
+    }
+    .small-text{
+        text-align: center;
+    }
+    .button{
+        text-align: center;
+    }
+    .scehalf{
+        text-align: center;
+    }
+    .sceondsection{
+        max-width: 100%;
+        flex-direction: column-reverse;
+    }
+   
     
+.para {
+    padding: 0 0px;
+}
 }
